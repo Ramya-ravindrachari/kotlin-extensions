@@ -59,8 +59,8 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/Ramya-ravindrachari/kotlin-extensions")
             credentials {
-                username = Ramya-ravindrachari
-                password = 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
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
 
 
             }
