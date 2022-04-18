@@ -60,7 +60,7 @@ publishing {
             url = uri("https://maven.pkg.github.com/Ramya-ravindrachari/kotlin-extensions")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
-                password = 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
+                password = System.getenv("GITHUB_TOKEN")
 
             }
         }
