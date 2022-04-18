@@ -31,7 +31,7 @@ jobs:
 
       - name: Publish artifact
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: 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
 
 
         # The GITHUB_REF tag comes in the format 'refs/tags/xxx'.
