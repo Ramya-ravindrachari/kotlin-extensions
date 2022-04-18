@@ -35,4 +35,4 @@ jobs:
       - name: Release Drafter
         uses: release-drafter/release-drafter@v5
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: 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
