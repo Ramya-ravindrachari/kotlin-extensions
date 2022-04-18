@@ -1,7 +1,10 @@
 name: Publish release
 
 on:
-  release:
+ push:
+    branches:
+      - Ramya-ravindrachari-patch-1
+ release:
     types: [published]
 
 jobs:
